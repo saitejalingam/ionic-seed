@@ -16,8 +16,6 @@ npm install -g bower gulp
 
 3\. [Set up an SSH key with github](https://help.github.com/articles/generating-ssh-keys/)
 
-4\. Ensure you are in the `up-ui-readaccess` team on github
-
 ### Usage
 
 
