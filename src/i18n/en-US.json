@@ -1,0 +1,37 @@
+{
+    "COMMON": {
+        "USERNAME": "Username",
+        "PASSWORD": "Password",
+        "MENU": "Menu",
+        "LOGOUT": "Logout",
+        "HOME": "Home",
+        "ERROR": "Error",
+        "PULL_TO_REFRESH": "Pull to refresh...",
+        "SERVICE_ERROR": "An error occurred while processing your request",
+        "NO": "No"
+    },
+    "LOGIN": {
+        "SIGN_IN": "Sign In",
+        "ERROR": "Username/Password is Incorrect"
+    },
+    "HOME": {
+        "ASSETS_NEAR_ME": "Assets Near Me",
+        "OPEN_TASKS": "open tasks",
+        "RECENTLY_VIEWED": "Recently Viewed",
+        "NO_RECENT_ASSETS": "No Recent Assets",
+        "ASSETS": "Assets",
+        "WORK_ITEMS": "Work Items",
+        "LOCATION_NOT_AVAILABLE": "Location Not Available",
+        "MODEL": "Model",
+        "ALL_NEARBY": "All Nearby",
+        "RECENT": "Recent"
+    },
+    "ASSET_DETAILS": {
+        "TITLE": "Asset Details",
+        "MODEL": "Model",
+        "READY": "Ready",
+        "IN_PROGRESS": "In Progress",
+        "CLOSED": "Closed"
+    },
+    "LOCOMOTIVE": "Locomotive"
+}
