@@ -6,9 +6,12 @@
         'ionic',
         'ngCordova',
         'tmh.dynamicLocale',
-        'pascalprecht.translate'
+        'pascalprecht.translate',
+
+        // routes
+        'egen.mobile.login'
     ])
-        .constant('upAvailableLanguages', ['en-US', 'ru-RU', 'el-GR'])
+        .constant('upAvailableLanguages', ['en-US', 'el-GR'])
         .constant('UpDefaultLanguage', 'en-US')
         .config(translateConfig)
         .config(appConfig);
@@ -23,8 +26,7 @@
     }
 
     // @ngInject
-    function appConfig($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
-        $ionicConfigProvider.tabs.position('bottom');
+    function appConfig($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('egen', {
                 url: '/egen',
